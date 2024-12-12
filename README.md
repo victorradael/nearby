@@ -52,7 +52,7 @@
 
 1. **Clone the Repository**:  
    ```bash
-   git clone https://github.com/your-username/nearby.git
+   git clone https://github.com/victorradael/nearby.git
    cd nearby
    ```
 
