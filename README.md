@@ -75,7 +75,7 @@
 
 ## **📸 App Preview**  
 
-![Images from app]("assets/images/image.png")
+![Images from app](assets/images/image.png)
 
 ---
 
