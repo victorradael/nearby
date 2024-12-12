@@ -1,10 +1,19 @@
-import {View, Text} from "react-native"
-import {useFonts, Rubik_600SemiBold, Rubik_400Regular, Rubik_500Medium, Rubik_700Bold} from "@expo-google-fonts/rubik"
+import { View } from "react-native";
+import { router } from "expo-router";
 
-export default function Index(){
-    return(
-        <View style={{ flex: 1, justifyContent: "center", alignItems: "center"}}>
-            <Text style={{fontSize: 22}}>Hello</Text>
-        </View>
-    )
+import { Steps } from "@/components/steps";
+import { Button } from "@/components/button";
+import { Welcome } from "@/components/welcome";
+
+export default function Index() {
+	return (
+		<View style={{ flex: 1, padding: 40, gap: 40 }}>
+			<Welcome />
+			<Steps />
+
+			<Button onPress={() => router.navigate("/home")}>
+				<Button.Title>Começar</Button.Title>
+			</Button>
+		</View>
+	);
 }
